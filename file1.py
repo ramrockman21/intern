@@ -153,7 +153,7 @@ else:
 # -----------------------------
 # LOAD DATASET
 # -----------------------------
-    df = pd.read_csv("C:/Users/Ramanan S/Downloads/internship_dataset_500.csv")
+  df = pd.read_csv("internship_dataset_500.csv")
 
 # -----------------------------
 # DASHBOARD
@@ -259,3 +259,4 @@ else:
         st.session_state.logged_in = False
         st.success("Logged out successfully")
         st.rerun()
+
